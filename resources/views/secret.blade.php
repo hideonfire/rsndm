@@ -5,7 +5,15 @@
 	<title>燃烧你的梦</title>
 	<!-- <link href="https://cdn.bootcss.com/bootstrap/4.0.0-beta.2/css/bootstrap-grid.css" rel="stylesheet"> -->
 	<style type="text/css">
-		*{   
+
+        #content{
+            display:flex;
+            height:100vh;
+        }
+        img{
+            margin:auto;
+        }
+        /* *{   
             margin: 0;   
             padding: 0;   
             background-color: #EAEAEA;   
@@ -23,12 +31,15 @@
             -ms-transform: translate(-50%, -50%);   
             -o-transform: translate(-50%, -50%);   
             transform: translate(-50%, -50%); 
-        } 
+        }  */
 	</style>
 </head>
 <body>
 
-<img src="{{ URL::asset('/images/res2.jpg') }}" alt="" class="center">
+<!-- <img src="{{ URL::asset('/images/res2.jpg') }}" alt="" class="center"> -->
+<div id="content">
+    <img src="{{ URL::asset('/images/res2.jpg') }}" alt="俊儿">
+</div>
 
 <script src="https://cdn.bootcss.com/jquery/1.8.3/jquery.js"></script> 
 </body>
