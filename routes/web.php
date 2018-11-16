@@ -18,7 +18,9 @@ Route::any('system','Index\IndexController@system');
 Route::any('secret', function () {
 	return view('secret');
 });
-
+Route::any('weixin', function () {
+	return view('weixin');
+});
 Route::any('/seat',function(){
 	return view('seat');
 });
